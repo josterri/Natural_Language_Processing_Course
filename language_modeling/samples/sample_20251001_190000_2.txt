@@ -1,0 +1,8 @@
+5-Gram Generated Text Sample
+Generated: 20251001_190000
+Word count: 8
+Model: 5gram_extended.pkl
+
+======================================================================
+
+governor martinez declares state of emergency over immigration

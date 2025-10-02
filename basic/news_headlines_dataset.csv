@@ -1,0 +1,401 @@
+headline_id,headline,category,word_count,has_number
+1,machine learning market expected to grow 15 percent,Technology,8,True
+2,laptop update brings battery to millions of users,Technology,8,False
+3,Mayor Chen proposes climate changes,Politics,5,False
+4,AppWorks releases smartphone version 25 today,Technology,6,True
+5,Conservative coalition faces challenges on education,Politics,6,False
+6,Senate votes on economic reform bill,Politics,6,False
+7,The Office renewed for fourth season,Entertainment,6,False
+8,Australia faces criticism over economy policy,Politics,6,False
+9,smartwatch sales reach 3 million in first quarter,Technology,8,True
+10,Warriors secures playoff spot with win over Rangers,Sports,8,False
+11,Conservative party wins majority in Queensland election,Politics,7,False
+12,Critics praise Echo for groundbreaking direction,Entertainment,6,False
+13,Australia and Australia sign historic defense alliance,Politics,7,False
+14,Mexico and Germany sign historic peace treaty,Politics,7,False
+15,Warriors trades Martinez to City in surprise move,Sports,8,False
+16,New economic law passes despite opposition,Politics,6,False
+17,cloud computing market expected to grow 20 percent,Technology,8,True
+18,Breaking Bad renewed for second season,Entertainment,6,False
+19,AI powered laptop transforms finance sector,Technology,6,False
+20,Echo receives 15 nominations at Grammy awards,Entertainment,7,True
+21,Green party wins majority in Texas election,Politics,7,False
+22,Australia and Germany sign historic climate pact,Politics,7,False
+23,New Dawn receives 150 nominations at Oscar awards,Entertainment,8,True
+24,DataSystems unveils plans for software expansion,Technology,6,False
+25,Democratic coalition faces challenges on healthcare,Politics,6,False
+26,Westworld streaming numbers break records on HBO Max,Entertainment,8,False
+27,Bulls trades Jackson to Warriors in surprise move,Sports,8,False
+28,artificial intelligence adoption increases among student users,Technology,7,False
+29,ByteLogic partners with CloudNet on cloud computing project,Technology,8,False
+30,Bulls defeats Eagles in thrilling 3 to 20 victory,Sports,9,True
+31,Golden Globe ceremony honors Chris Evans with lifetime achievement,Entertainment,9,False
+32,Anderson leads Sharks to fifth straight victory,Sports,7,False
+33,CyberDynamics releases smartwatch version 15 today,Technology,6,True
+34,Chancellor Weber meets with PM Anderson to discuss employment,Politics,9,False
+35,laptop sales reach 100 million in first quarter,Technology,8,True
+36,Martinez scores 150 points in championship game,Sports,7,True
+37,Eagles defeats Jets in thrilling 30 to 10 victory,Sports,9,True
+38,Tom Holland and Chris Evans to star in Starlight,Entertainment,9,False
+39,tennis season kicks off with Bulls vs Lions,Sports,8,False
+40,Australia takes gold in hockey at championships,Sports,7,False
+41,Stranger Things streaming numbers break records on Amazon Prime,Entertainment,9,False
+42,Conservative coalition faces challenges on security,Politics,6,False
+43,Senate votes on trade reform bill,Politics,6,False
+44,Democratic party wins majority in Bavaria election,Politics,7,False
+45,New healthcare law passes despite opposition,Politics,6,False
+46,Lost City receives 15 nominations at Oscar awards,Entertainment,8,True
+47,Anderson leads Bulls to third straight victory,Sports,7,False
+48,Wilson scores 150 points in championship game,Sports,7,True
+49,Mayor Williams proposes healthcare changes,Politics,5,False
+50,Open final set between Warriors and Jets,Sports,7,False
+51,Mayor Kim proposes immigration changes,Politics,5,False
+52,Taylor Swift drops surprise album featuring 20 tracks,Entertainment,8,True
+53,The Office finale draws 30 million viewers,Entertainment,7,True
+54,Brazil strengthens ties with Canada,Politics,5,False
+55,Breaking Bad finale draws 150 million viewers,Entertainment,7,True
+56,India strengthens ties with Australia,Politics,5,False
+57,CyberDynamics announces artificial intelligence breakthrough,Technology,5,False
+58,Anderson breaks record with 150 saves performance,Sports,7,True
+59,Labour coalition faces challenges on infrastructure,Politics,6,False
+60,Warriors secures playoff spot with win over Tigers,Sports,8,False
+61,Sharks defeats Jets in thrilling 100 to 1 victory,Sports,9,True
+62,AppWorks launches new device with voice control feature,Technology,8,False
+63,ByteLogic launches new smartwatch with AI feature,Technology,7,False
+64,Mayor Patel proposes trade changes,Politics,5,False
+65,Thompson named Golden Globe player of the month,Sports,8,False
+66,President Smith calls for unity on security issue,Politics,8,False
+67,Ed Sheeran announces world tour starting in January,Entertainment,8,False
+68,New tablet features machine learning and enhanced security,Technology,8,False
+69,Emmy ceremony honors Zendaya with lifetime achievement,Entertainment,7,False
+70,Parliament debates controversial infrastructure bill,Politics,5,False
+71,The Office streaming numbers break records on Netflix,Entertainment,8,False
+72,Warriors secures playoff spot with win over Sharks,Sports,8,False
+73,President Smith announces new education initiative,Politics,6,False
+74,President Chen addresses concerns over climate change,Politics,7,False
+75,Ed Sheeran announces world tour starting in November,Entertainment,8,False
+76,app sales reach 10 million in first quarter,Technology,8,True
+77,New study shows machine learning improves yards by 30 percent,Technology,10,True
+78,Ryan Gosling wins Oscar for performance in The Journey,Entertainment,9,False
+79,United secures playoff spot with win over Lions,Sports,8,False
+80,smartphone sales reach 100 million in first quarter,Technology,8,True
+81,Green coalition faces challenges on healthcare,Politics,6,False
+82,France strengthens ties with Mexico,Politics,5,False
+83,platform update brings battery to millions of users,Technology,8,False
+84,Researchers develop artificial intelligence for transportation,Technology,6,False
+85,New study shows artificial intelligence improves goals by 2 percent,Technology,10,True
+86,Opposition criticizes government immigration approach,Politics,5,False
+87,Experts predict cloud computing will revolutionize finance,Technology,7,False
+88,Westworld renewed for fourth season,Entertainment,5,False
+89,Jackson named Grammy player of the month,Sports,7,False
+90,Mayor Kim proposes energy changes,Politics,5,False
+91,CloudNet launches new platform with battery feature,Technology,7,False
+92,Emma Stone wins Emmy for performance in Lost City,Entertainment,9,False
+93,Wilson scores 100 points in championship game,Sports,7,True
+94,platform sales reach 15 million in first quarter,Technology,8,True
+95,Tigers wins Super Bowl for fourth consecutive year,Sports,8,False
+96,Beyonce drops surprise album featuring 5 tracks,Entertainment,7,True
+97,Breaking Bad renewed for third season,Entertainment,6,False
+98,The Office renewed for third season,Entertainment,6,False
+99,CloudNet partners with TechCorp on robotics project,Technology,7,False
+100,President Kim addresses concerns over employment,Politics,6,False
+101,TechCorp unveils plans for software expansion,Technology,6,False
+102,Taylor named Emmy player of the month,Sports,7,False
+103,Opposition criticizes government tax approach,Politics,5,False
+104,Japan strengthens ties with France,Politics,5,False
+105,Jackson named Grammy player of the month,Sports,7,False
+106,Senate votes on healthcare reform bill,Politics,6,False
+107,President Smith meets with President Martinez to discuss healthcare,Politics,9,False
+108,Eagles secures playoff spot with win over Tigers,Sports,8,False
+109,The Journey tops box office with 50 million opening,Entertainment,9,True
+110,The Office finale draws 20 million viewers,Entertainment,7,True
+111,Bulls defeats City in thrilling 150 to 1 victory,Sports,9,True
+112,The Office finale draws 3 million viewers,Entertainment,7,True
+113,tablet update brings security to millions of users,Technology,8,False
+114,Beyonce drops surprise album featuring 10 tracks,Entertainment,7,True
+115,device sales reach 3 million in first quarter,Technology,8,True
+116,President Rodriguez addresses concerns over climate change,Politics,7,False
+117,Labour coalition faces challenges on economy,Politics,6,False
+118,cloud computing adoption increases among student users,Technology,7,False
+119,Beyonce collaborates with Ed Sheeran on new single,Entertainment,8,False
+120,artificial intelligence market expected to grow 100 percent,Technology,8,True
+121,soccer fans celebrate as Tigers wins title,Sports,7,False
+122,Sharks secures playoff spot with win over City,Sports,8,False
+123,Senate votes on immigration reform bill,Politics,6,False
+124,Billie Eilish drops surprise album featuring 30 tracks,Entertainment,8,True
+125,President Williams addresses concerns over employment,Politics,6,False
+126,soccer fans celebrate as Eagles wins title,Sports,7,False
+127,Billie Eilish announces world tour starting in September,Entertainment,8,False
+128,Emmy ceremony honors Tom Holland with lifetime achievement,Entertainment,8,False
+129,Martinez named Golden Globe player of the month,Sports,8,False
+130,cloud computing market expected to grow 100 percent,Technology,8,True
+131,Critics praise Starlight for groundbreaking visual effects,Entertainment,7,False
+132,Rangers secures playoff spot with win over Eagles,Sports,8,False
+133,New device features 5G and enhanced voice control,Technology,8,True
+134,Brown leads Jets to fifth straight victory,Sports,7,False
+135,Martinez injured in Eagles game against Jets,Sports,7,False
+136,Warriors trades Taylor to Sharks in surprise move,Sports,8,False
+137,5G market expected to grow 15 percent,Technology,7,True
+138,New device features blockchain and enhanced speed,Technology,7,False
+139,Researchers develop machine learning for transportation,Technology,6,False
+140,Taylor Swift drops surprise album featuring 100 tracks,Entertainment,8,True
+141,Labour coalition faces challenges on employment,Politics,6,False
+142,Eagles defeats Rangers in thrilling 5 to 15 victory,Sports,9,True
+143,DataSystems partners with CloudNet on 5G project,Technology,7,True
+144,United secures playoff spot with win over United,Sports,8,False
+145,Taylor leads Bulls to third straight victory,Sports,7,False
+146,TechCorp announces robotics breakthrough,Technology,4,False
+147,India strengthens ties with Germany,Politics,5,False
+148,Davis breaks record with 2 yards performance,Sports,7,True
+149,Lions defeats Eagles in thrilling 50 to 20 victory,Sports,9,True
+150,New Dawn sequel announced with Tom Holland returning,Entertainment,8,False
+151,Republican party wins majority in Queensland election,Politics,7,False
+152,Breaking Bad renewed for fourth season,Entertainment,6,False
+153,CloudNet faces criticism over tablet privacy concerns,Technology,7,False
+154,Lions trades Thompson to Eagles in surprise move,Sports,8,False
+155,President Williams addresses concerns over employment,Politics,6,False
+156,Bulls announces signing of star player Brown,Sports,7,False
+157,Bulls coach discusses strategy after devastating loss,Sports,7,False
+158,Canada and Canada sign historic trade agreement,Politics,7,False
+159,Jennifer Lawrence wins Grammy for performance in Lost City,Entertainment,9,False
+160,The Crown creator discusses plans for final season,Entertainment,8,False
+161,Emmy ceremony honors Chris Evans with lifetime achievement,Entertainment,8,False
+162,CyberDynamics faces criticism over smartwatch privacy concerns,Technology,7,False
+163,robotics adoption increases among mobile users,Technology,6,False
+164,Davis injured in Rangers game against Tigers,Sports,7,False
+165,Tom Holland stars in new thriller film Lost City,Entertainment,9,False
+166,Green party wins majority in Texas election,Politics,7,False
+167,New Dawn sequel announced with Ryan Gosling returning,Entertainment,8,False
+168,Martinez named Grammy player of the month,Sports,7,False
+169,Tigers announces signing of star player Brown,Sports,7,False
+170,TechCorp partners with ByteLogic on machine learning project,Technology,8,False
+171,Democratic party wins majority in California election,Politics,7,False
+172,Chancellor Weber calls for unity on employment issue,Politics,8,False
+173,Rangers coach discusses strategy after devastating loss,Sports,7,False
+174,Democratic coalition faces challenges on healthcare,Politics,6,False
+175,Rangers defeats Jets in thrilling 50 to 2 victory,Sports,9,True
+176,Jennifer Lawrence and Zendaya to star in Lost City,Entertainment,9,False
+177,India faces criticism over employment policy,Politics,6,False
+178,Researchers develop robotics for transportation,Technology,5,False
+179,Government unveils 3 billion healthcare plan,Politics,6,True
+180,Republican coalition faces challenges on employment,Politics,6,False
+181,France strengthens ties with Canada,Politics,5,False
+182,Thompson named Oscar player of the month,Sports,7,False
+183,Thompson named Golden Globe player of the month,Sports,8,False
+184,United secures playoff spot with win over United,Sports,8,False
+185,Senate votes on tax reform bill,Politics,6,False
+186,Super Bowl final set between City and United,Sports,8,False
+187,Breaking Bad streaming numbers break records on Amazon Prime,Entertainment,9,False
+188,Researchers develop blockchain for transportation,Technology,5,False
+189,Jennifer Lawrence stars in new action film Echo,Entertainment,8,False
+190,United secures playoff spot with win over City,Sports,8,False
+191,Wilson scores 50 points in championship game,Sports,7,True
+192,Rangers trades Wilson to United in surprise move,Sports,8,False
+193,Dark Waters tops box office with 2 million opening,Entertainment,9,True
+194,Democratic party wins majority in California election,Politics,7,False
+195,Ryan Gosling wins Emmy for performance in Echo,Entertainment,8,False
+196,Westworld renewed for fifth season,Entertainment,5,False
+197,Echo receives 15 nominations at SAG awards,Entertainment,7,True
+198,Westworld finale draws 30 million viewers,Entertainment,6,True
+199,New Dawn tops box office with 25 million opening,Entertainment,9,True
+200,Chris Evans wins Oscar for performance in Dark Waters,Entertainment,9,False
+201,Eagles wins World Cup for third consecutive year,Sports,8,False
+202,Researchers develop robotics for transportation,Technology,5,False
+203,New study shows blockchain improves rebounds by 3 percent,Technology,9,True
+204,Researchers develop 5G for transportation,Technology,5,True
+205,CyberDynamics partners with TechCorp on machine learning project,Technology,8,False
+206,tennis fans celebrate as Bulls wins title,Sports,7,False
+207,Opposition criticizes government healthcare approach,Politics,5,False
+208,Japan strengthens ties with Australia,Politics,5,False
+209,The Crown finale draws 10 million viewers,Entertainment,7,True
+210,Lions coach discusses strategy after tough loss,Sports,7,False
+211,CyberDynamics launches new smartphone with speed feature,Technology,7,False
+212,Brown injured in Bulls game against Eagles,Sports,7,False
+213,Mexico takes gold in tennis at championships,Sports,7,False
+214,The Office streaming numbers break records on Netflix,Entertainment,8,False
+215,AI powered smartwatch transforms automotive sector,Technology,6,False
+216,baseball fans celebrate as United wins title,Sports,7,False
+217,Taylor Swift collaborates with Ed Sheeran on new single,Entertainment,9,False
+218,AI powered software transforms automotive sector,Technology,6,False
+219,Jennifer Lawrence wins Grammy for performance in New Dawn,Entertainment,9,False
+220,cloud computing market expected to grow 15 percent,Technology,8,True
+221,The Crown streaming numbers break records on HBO Max,Entertainment,9,False
+222,Jets trades Davis to United in surprise move,Sports,8,False
+223,blockchain adoption increases among senior users,Technology,6,False
+224,City announces signing of star player Taylor,Sports,7,False
+225,Wilson breaks record with 20 saves performance,Sports,7,True
+226,basketball season kicks off with Rangers vs Bulls,Sports,8,False
+227,Sharks secures playoff spot with win over Tigers,Sports,8,False
+228,Oscar ceremony honors Zendaya with lifetime achievement,Entertainment,7,False
+229,Republican party wins majority in California election,Politics,7,False
+230,TechCorp releases smartwatch version 25 today,Technology,6,True
+231,Germany takes gold in football at championships,Sports,7,False
+232,New smartwatch features robotics and enhanced AI,Technology,7,False
+233,robotics adoption increases among business users,Technology,6,False
+234,President Rodriguez addresses concerns over infrastructure,Politics,6,False
+235,Brown named Golden Globe player of the month,Sports,8,False
+236,Starlight sequel announced with Ryan Gosling returning,Entertainment,7,False
+237,5G adoption increases among business users,Technology,6,True
+238,Jennifer Lawrence wins Grammy for performance in Dark Waters,Entertainment,9,False
+239,Westworld streaming numbers break records on Amazon Prime,Entertainment,8,False
+240,Echo sequel announced with Chris Evans returning,Entertainment,7,False
+241,Breaking Bad creator discusses plans for final season,Entertainment,8,False
+242,Tigers trades Brown to United in surprise move,Sports,8,False
+243,Government unveils 5 billion security plan,Politics,6,True
+244,Starlight receives 25 nominations at Golden Globe awards,Entertainment,8,True
+245,New economic law passes despite opposition,Politics,6,False
+246,Senate votes on economic reform bill,Politics,6,False
+247,Zendaya stars in new comedy film Dark Waters,Entertainment,8,False
+248,Anderson breaks record with 5 assists performance,Sports,7,True
+249,cloud computing adoption increases among mobile users,Technology,7,False
+250,DataSystems launches new software with voice control feature,Technology,8,False
+251,Tigers trades Thompson to Bulls in surprise move,Sports,8,False
+252,robotics adoption increases among mobile users,Technology,6,False
+253,Jets coach discusses strategy after devastating loss,Sports,7,False
+254,New laptop features machine learning and enhanced 5G,Technology,8,True
+255,President Martinez calls for unity on climate change issue,Politics,9,False
+256,Beyonce announces world tour starting in March,Entertainment,7,False
+257,Parliament debates controversial education bill,Politics,5,False
+258,President Smith announces new healthcare initiative,Politics,6,False
+259,CloudNet releases device version 5 today,Technology,6,True
+260,Finals final set between Lions and Sharks,Sports,7,False
+261,soccer fans celebrate as Bulls wins title,Sports,7,False
+262,New immigration law passes despite opposition,Politics,6,False
+263,PM Anderson calls for unity on climate change issue,Politics,9,False
+264,Parliament debates controversial education bill,Politics,5,False
+265,Brown named Grammy player of the month,Sports,7,False
+266,Tigers defeats Tigers in thrilling 5 to 10 victory,Sports,9,True
+267,Dark Waters sequel announced with Chris Evans returning,Entertainment,8,False
+268,CloudNet announces machine learning breakthrough,Technology,5,False
+269,TechCorp unveils plans for device expansion,Technology,6,False
+270,Opposition criticizes government healthcare approach,Politics,5,False
+271,Government unveils 2 billion healthcare plan,Politics,6,True
+272,CloudNet partners with TechCorp on cloud computing project,Technology,8,False
+273,DataSystems partners with CloudNet on 5G project,Technology,7,True
+274,Taylor Swift drops surprise album featuring 30 tracks,Entertainment,8,True
+275,Sharks coach discusses strategy after tough loss,Sports,7,False
+276,PM Anderson calls for unity on infrastructure issue,Politics,8,False
+277,Tom Holland wins Emmy for performance in New Dawn,Entertainment,9,False
+278,AppWorks releases smartphone version 20 today,Technology,6,True
+279,software sales reach 50 million in first quarter,Technology,8,True
+280,Tom Holland wins Oscar for performance in New Dawn,Entertainment,9,False
+281,Senate votes on trade reform bill,Politics,6,False
+282,CyberDynamics announces cloud computing breakthrough,Technology,5,False
+283,Ryan Gosling and Emma Stone to star in Echo,Entertainment,9,False
+284,Mexico takes gold in football at championships,Sports,7,False
+285,TechCorp announces robotics breakthrough,Technology,4,False
+286,Breaking Bad creator discusses plans for final season,Entertainment,8,False
+287,Experts predict machine learning will revolutionize education,Technology,7,False
+288,Championship final set between City and Bulls,Sports,7,False
+289,Opposition criticizes government education approach,Politics,5,False
+290,AI powered smartphone transforms healthcare sector,Technology,6,False
+291,Government unveils 15 billion healthcare plan,Politics,6,True
+292,Mayor Kim proposes trade changes,Politics,5,False
+293,Republican coalition faces challenges on security,Politics,6,False
+294,New smartwatch features artificial intelligence and enhanced speed,Technology,8,False
+295,New study shows machine learning improves yards by 25 percent,Technology,10,True
+296,Critics praise Dark Waters for groundbreaking cinematography,Entertainment,7,False
+297,Opposition criticizes government tax approach,Politics,5,False
+298,Critics praise Starlight for groundbreaking storytelling,Entertainment,6,False
+299,blockchain adoption increases among student users,Technology,6,False
+300,software update brings security to millions of users,Technology,8,False
+301,ByteLogic unveils plans for platform expansion,Technology,6,False
+302,Brown injured in Lions game against Rangers,Sports,7,False
+303,Beyonce collaborates with Taylor Swift on new single,Entertainment,8,False
+304,Lions announces signing of star player Davis,Sports,7,False
+305,Prime Minister Johnson meets with PM Anderson to discuss healthcare,Politics,10,False
+306,Brown breaks record with 150 yards performance,Sports,7,True
+307,Warriors secures playoff spot with win over Sharks,Sports,8,False
+308,Prime Minister Johnson meets with PM Anderson to discuss economy,Politics,10,False
+309,Opposition criticizes government economic approach,Politics,5,False
+310,Chris Evans wins SAG for performance in Echo,Entertainment,8,False
+311,India strengthens ties with Germany,Politics,5,False
+312,United defeats Lions in thrilling 20 to 3 victory,Sports,9,True
+313,President Williams addresses concerns over climate change,Politics,7,False
+314,New Dawn tops box office with 3 million opening,Entertainment,9,True
+315,Starlight sequel announced with Zendaya returning,Entertainment,6,False
+316,AppWorks partners with DataSystems on cloud computing project,Technology,8,False
+317,New study shows blockchain improves assists by 30 percent,Technology,9,True
+318,The Office streaming numbers break records on Disney Plus,Entertainment,9,False
+319,blockchain adoption increases among business users,Technology,6,False
+320,platform sales reach 25 million in first quarter,Technology,8,True
+321,New tablet features cloud computing and enhanced 5G,Technology,8,True
+322,AI powered device transforms retail sector,Technology,6,False
+323,Stranger Things finale draws 150 million viewers,Entertainment,7,True
+324,CloudNet unveils plans for tablet expansion,Technology,6,False
+325,Echo tops box office with 25 million opening,Entertainment,8,True
+326,Ed Sheeran collaborates with Billie Eilish on new single,Entertainment,9,False
+327,Critics praise Echo for groundbreaking visual effects,Entertainment,7,False
+328,New device features 5G and enhanced speed,Technology,7,True
+329,New tablet features machine learning and enhanced voice control,Technology,9,False
+330,Eagles secures playoff spot with win over Tigers,Sports,8,False
+331,Conservative coalition faces challenges on economy,Politics,6,False
+332,New study shows blockchain improves assists by 25 percent,Technology,9,True
+333,Canada takes gold in basketball at championships,Sports,7,False
+334,Critics praise Dark Waters for groundbreaking cinematography,Entertainment,7,False
+335,cloud computing market expected to grow 2 percent,Technology,8,True
+336,football fans celebrate as United wins title,Sports,7,False
+337,Parliament debates controversial infrastructure bill,Politics,5,False
+338,Mayor Patel proposes economic changes,Politics,5,False
+339,New economic law passes despite opposition,Politics,6,False
+340,PM Anderson calls for unity on economy issue,Politics,8,False
+341,ByteLogic releases smartphone version 100 today,Technology,6,True
+342,Government unveils 15 billion economy plan,Politics,6,True
+343,ByteLogic faces criticism over app privacy concerns,Technology,7,False
+344,Conservative party wins majority in Bavaria election,Politics,7,False
+345,Ed Sheeran announces world tour starting in November,Entertainment,8,False
+346,Opposition criticizes government education approach,Politics,5,False
+347,New Dawn sequel announced with Zendaya returning,Entertainment,7,False
+348,CyberDynamics releases app version 20 today,Technology,6,True
+349,AppWorks unveils plans for laptop expansion,Technology,6,False
+350,Parliament debates controversial climate change bill,Politics,6,False
+351,Critics praise Lost City for groundbreaking direction,Entertainment,7,False
+352,Canada and Brazil sign historic defense alliance,Politics,7,False
+353,smartphone sales reach 50 million in first quarter,Technology,8,True
+354,Canada takes gold in soccer at championships,Sports,7,False
+355,Beyonce announces world tour starting in November,Entertainment,7,False
+356,Ed Sheeran collaborates with Beyonce on new single,Entertainment,8,False
+357,City secures playoff spot with win over Jets,Sports,8,False
+358,New Dawn receives 30 nominations at SAG awards,Entertainment,8,True
+359,Breaking Bad streaming numbers break records on Disney Plus,Entertainment,9,False
+360,The Office finale draws 15 million viewers,Entertainment,7,True
+361,DataSystems releases software version 100 today,Technology,6,True
+362,Parliament debates controversial employment bill,Politics,5,False
+363,Parliament debates controversial security bill,Politics,5,False
+364,Lions secures playoff spot with win over Bulls,Sports,8,False
+365,Taylor leads Bulls to second straight victory,Sports,7,False
+366,Westworld streaming numbers break records on Netflix,Entertainment,7,False
+367,Thompson breaks record with 3 assists performance,Sports,7,True
+368,Brazil takes gold in tennis at championships,Sports,7,False
+369,President Smith announces new immigration initiative,Politics,6,False
+370,PM Anderson calls for unity on economy issue,Politics,8,False
+371,Dark Waters receives 15 nominations at Oscar awards,Entertainment,8,True
+372,New smartwatch features 5G and enhanced AI,Technology,7,True
+373,machine learning market expected to grow 20 percent,Technology,8,True
+374,New economic law passes despite opposition,Politics,6,False
+375,Billie Eilish drops surprise album featuring 150 tracks,Entertainment,8,True
+376,Tigers defeats City in thrilling 5 to 10 victory,Sports,9,True
+377,AppWorks partners with TechCorp on artificial intelligence project,Technology,8,False
+378,Warriors coach discusses strategy after unexpected loss,Sports,7,False
+379,New study shows artificial intelligence improves rebounds by 5 percent,Technology,10,True
+380,Dark Waters receives 50 nominations at Grammy awards,Entertainment,8,True
+381,robotics market expected to grow 10 percent,Technology,7,True
+382,Lost City tops box office with 20 million opening,Entertainment,9,True
+383,United trades Thompson to Warriors in surprise move,Sports,8,False
+384,Jets secures playoff spot with win over Bulls,Sports,8,False
+385,Championship final set between Rangers and Lions,Sports,7,False
+386,Westworld renewed for fifth season,Entertainment,5,False
+387,Republican party wins majority in Texas election,Politics,7,False
+388,Dark Waters receives 25 nominations at Golden Globe awards,Entertainment,9,True
+389,Opposition criticizes government tax approach,Politics,5,False
+390,The Office creator discusses plans for final season,Entertainment,8,False
+391,TechCorp faces criticism over platform privacy concerns,Technology,7,False
+392,Brown breaks record with 15 yards performance,Sports,7,True
+393,Starlight receives 100 nominations at Grammy awards,Entertainment,7,True
+394,Chancellor Weber meets with PM Anderson to discuss employment,Politics,9,False
+395,Wilson leads Lions to third straight victory,Sports,7,False
+396,Prime Minister Johnson announces new education initiative,Politics,7,False
+397,Taylor named Grammy player of the month,Sports,7,False
+398,AI powered software transforms healthcare sector,Technology,6,False
+399,Jennifer Lawrence stars in new sci-fi film New Dawn,Entertainment,9,False
+400,United coach discusses strategy after devastating loss,Sports,7,False

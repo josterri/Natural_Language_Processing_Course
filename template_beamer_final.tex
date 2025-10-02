@@ -1,0 +1,876 @@
+\documentclass[8pt,aspectratio=169]{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{amsmath}
+
+% Color definitions
+\definecolor{mlblue}{RGB}{0,102,204}
+\definecolor{mlpurple}{RGB}{51,51,178}
+\definecolor{mllavender}{RGB}{173,173,224}
+\definecolor{mllavender2}{RGB}{193,193,232}
+\definecolor{mllavender3}{RGB}{204,204,235}
+\definecolor{mllavender4}{RGB}{214,214,239}
+\definecolor{mlorange}{RGB}{255, 127, 14}
+\definecolor{mlgreen}{RGB}{44, 160, 44}
+\definecolor{mlred}{RGB}{214, 39, 40}
+\definecolor{mlgray}{RGB}{127, 127, 127}
+
+% Additional colors for template compatibility
+\definecolor{lightgray}{RGB}{240, 240, 240}
+\definecolor{midgray}{RGB}{180, 180, 180}
+
+% Apply custom colors to Madrid theme
+\setbeamercolor{palette primary}{bg=mllavender3,fg=mlpurple}
+\setbeamercolor{palette secondary}{bg=mllavender2,fg=mlpurple}
+\setbeamercolor{palette tertiary}{bg=mllavender,fg=white}
+\setbeamercolor{palette quaternary}{bg=mlpurple,fg=white}
+
+\setbeamercolor{structure}{fg=mlpurple}
+\setbeamercolor{section in toc}{fg=mlpurple}
+\setbeamercolor{subsection in toc}{fg=mlblue}
+\setbeamercolor{title}{fg=mlpurple}
+\setbeamercolor{frametitle}{fg=mlpurple,bg=mllavender3}
+\setbeamercolor{block title}{bg=mllavender2,fg=mlpurple}
+\setbeamercolor{block body}{bg=mllavender4,fg=black}
+
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Clean itemize/enumerate
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{enumerate items}[default]
+
+% Reduce margins for more content space
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+
+% Command for bottom annotation (Madrid-style)
+\newcommand{\bottomnote}[1]{%
+\vfill
+\vspace{-2mm}
+\textcolor{mllavender2}{\rule{\textwidth}{0.4pt}}
+\vspace{1mm}
+\footnotesize
+\textbf{#1}
+}
+
+\title{Beamer Template Collection}
+\subtitle{22 Professional Slide Layouts with Madrid Theme}
+\author{Template System}
+\institute{Academic \& Professional Presentations}
+\date{\today}
+
+\begin{document}
+
+% ==================== LAYOUT 1: PLAIN TITLE ====================
+\begin{frame}[plain]
+\vspace{2cm}
+\begin{center}
+{\Huge Main Title}\\[0.5cm]
+{\Large Subtitle or Description}\\[2cm]
+{\normalsize Additional Information}
+\end{center}
+\end{frame}
+
+% ==================== LAYOUT 2: STANDARD TITLE ====================
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+% ==================== TABLE OF CONTENTS ====================
+\begin{frame}[t]{Template Overview}
+\tableofcontents
+\vfill
+\footnotesize
+\textbf{Template Structure:} This template provides 22 pre-designed slide layouts organized into sections. Each layout serves a specific purpose for academic and professional presentations. Sections include content layouts, visual formats, comparisons, specialized formats, and data visualization options.
+\end{frame}
+
+% ==================== SECTION: CONTENT LAYOUTS ====================
+\section{Content Layouts}
+
+\begin{frame}[t]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Content Layouts\par
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% ==================== LAYOUT 3: TWO COLUMNS TEXT ====================
+\begin{frame}[t]{Two Column Layout - Text}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Left Column Header}
+
+Main content for the left side. This is where your primary information goes.
+
+Key points:
+\begin{itemize}
+\item First point
+\item Second point
+\item Third point with more text
+\item Fourth point
+\end{itemize}
+
+Additional paragraph text can go here to provide more context or explanation.
+
+\column{0.48\textwidth}
+\textbf{Right Column Header}
+
+Supporting content or contrasting information for the right side.
+
+Related items:
+\begin{itemize}
+\item Supporting point one
+\item Supporting point two
+\item Supporting point three
+\end{itemize}
+
+More descriptive text that complements the left column content.
+\end{columns}
+
+\bottomnote{Bottom annotation: Additional notes, references, or key takeaways}
+\end{frame}
+
+% ==================== LAYOUT 4: TWO COLUMNS WITH MATH ====================
+\begin{frame}[t]{Two Column Layout - Mathematics}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Definition}
+
+A mathematical concept defined:
+$$f(x) = ax^2 + bx + c$$
+
+Properties:
+\begin{itemize}
+\item Property one: $a \neq 0$
+\item Property two: Vertex at $x = -\frac{b}{2a}$
+\item Property three: Discriminant $\Delta = b^2 - 4ac$
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Example}
+
+Specific instance:
+$$f(x) = 2x^2 + 3x + 1$$
+
+Calculation:
+\begin{align*}
+f'(x) &= 4x + 3 \\
+f'(0) &= 3 \\
+f''(x) &= 4
+\end{align*}
+
+Result: Minimum at $x = -\frac{3}{4}$
+\end{columns}
+
+\bottomnote{Mathematical concepts are best understood through both theory and examples}
+\end{frame}
+
+% ==================== LAYOUT 5: COLUMNS WITH LIST VARIATIONS ====================
+\begin{frame}[t]{List Variations}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Enumerated List}
+\begin{enumerate}
+\item First step in process
+\item Second step with details
+\item Third step
+\begin{itemize}
+\item Sub-point A
+\item Sub-point B
+\end{itemize}
+\item Final step
+\end{enumerate}
+
+\vspace{0.5em}
+\textbf{Bullet Points}
+\begin{itemize}
+\item Main concept
+\item Supporting idea
+\item Additional thought
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Mixed Content}
+
+Paragraph text introducing a concept.
+
+Key formulas:
+\begin{itemize}
+\item Linear: $y = mx + b$
+\item Quadratic: $y = ax^2 + bx + c$
+\item Exponential: $y = ae^{bx}$
+\end{itemize}
+
+Concluding remarks about the formulas and their applications in real-world scenarios.
+\end{columns}
+\end{frame}
+
+% ==================== LAYOUT 6: THREE-WAY SPLIT ====================
+\begin{frame}[t]{Three Column Layout}
+\begin{columns}[T]
+\column{0.31\textwidth}
+\textbf{Category A}
+
+Content for first category:
+\begin{itemize}
+\item Item 1
+\item Item 2
+\item Item 3
+\end{itemize}
+
+Additional notes about this category.
+
+\column{0.31\textwidth}
+\textbf{Category B}
+
+Content for second category:
+\begin{itemize}
+\item Item 1
+\item Item 2
+\item Item 3
+\end{itemize}
+
+Additional notes about this category.
+
+\column{0.31\textwidth}
+\textbf{Category C}
+
+Content for third category:
+\begin{itemize}
+\item Item 1
+\item Item 2
+\item Item 3
+\end{itemize}
+
+Additional notes about this category.
+\end{columns}
+
+\bottomnote{Three columns work well for comparisons or related concepts}
+\end{frame}
+
+% ==================== SECTION: VISUAL LAYOUTS ====================
+\section{Visual Layouts}
+
+\begin{frame}[t]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Visual Layouts\par
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% ==================== LAYOUT 7: FULL WIDTH WITH IMAGE SPACE ====================
+\begin{frame}[t]{Full Width Content with Image}
+\textbf{Main Topic Introduction}
+
+This layout provides space for a full-width explanation followed by an image or chart.
+
+Key concepts to understand:
+\begin{itemize}
+\item Concept one with brief explanation
+\item Concept two with additional details
+\item Concept three relating to the visual below
+\end{itemize}
+
+\vspace{0.5em}
+\begin{center}
+% Space for image/chart
+\framebox[0.9\textwidth][c]{
+\vspace{3cm}
+\textcolor{midgray}{[Image/Chart Placeholder]}
+\vspace{3cm}
+}
+\end{center}
+
+\bottomnote{Visuals should complement and enhance the textual content}
+\end{frame}
+
+% ==================== LAYOUT 8: COLUMNS WITH IMAGE ====================
+\begin{frame}[t]{Mixed Media Layout}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Text Content}
+
+Explanation of concept with supporting details.
+
+Important points:
+\begin{itemize}
+\item First observation
+\item Second observation
+\item Third observation
+\item Conclusion
+\end{itemize}
+
+Formula if needed:
+$$E = mc^2$$
+
+\column{0.48\textwidth}
+\begin{center}
+% Space for image
+\framebox[0.9\columnwidth][c]{
+\vspace{4cm}
+\textcolor{midgray}{[Visual Element]}
+\vspace{4cm}
+}
+\end{center}
+\end{columns}
+
+\bottomnote{Combine text and visuals for maximum impact}
+\end{frame}
+
+% ==================== SECTION: COMPARISONS AND ANALYSIS ====================
+\section{Comparisons and Analysis}
+
+\begin{frame}[t]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Comparisons and Analysis\par
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% ==================== LAYOUT 9: DEFINITION-EXAMPLE PATTERN ====================
+\begin{frame}[t]{Definition and Examples}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Definition}
+
+Formal statement of concept or theorem.
+
+\vspace{0.5em}
+\textbf{Properties}
+\begin{itemize}
+\item Property 1
+\item Property 2
+\item Property 3
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Conditions}
+\begin{itemize}
+\item Must satisfy A
+\item Must satisfy B
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Example 1}
+
+Concrete instance demonstrating the concept.
+
+Details:
+\begin{itemize}
+\item Specific value: 42
+\item Result: \textcolor{mlgreen}{Valid}
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Example 2}
+
+Another instance showing different aspect.
+
+Details:
+\begin{itemize}
+\item Specific value: -5
+\item Result: \textcolor{mlorange}{Invalid}
+\end{itemize}
+\end{columns}
+
+\bottomnote{Definitions paired with examples aid understanding}
+\end{frame}
+
+% ==================== LAYOUT 10: COMPARISON TABLE ====================
+\begin{frame}[t]{Comparison Layout}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Method A}
+\begin{itemize}
+\item Advantage 1
+\item Advantage 2
+\item Advantage 3
+\end{itemize}
+
+\textbf{Disadvantages}
+\begin{itemize}
+\item Limitation 1
+\item Limitation 2
+\end{itemize}
+
+\textbf{Best for:} Scenario type X
+
+\column{0.48\textwidth}
+\textbf{Method B}
+\begin{itemize}
+\item Advantage 1
+\item Advantage 2
+\item Advantage 3
+\end{itemize}
+
+\textbf{Disadvantages}
+\begin{itemize}
+\item Limitation 1
+\item Limitation 2
+\end{itemize}
+
+\textbf{Best for:} Scenario type Y
+\end{columns}
+
+\bottomnote{Direct comparisons help in decision making}
+\end{frame}
+
+% ==================== LAYOUT 11: PROGRESSIVE REVEAL ====================
+\begin{frame}[t]{Step-by-Step Process}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Initial State}
+
+Description of starting point:
+\begin{itemize}
+\item Given: Input data
+\item Goal: Desired output
+\item Constraint: Time limit
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Step 1: Preparation}
+
+Actions taken in first step.
+
+\vspace{0.5em}
+\textbf{Step 2: Execution}
+
+Main processing occurs here.
+
+\column{0.48\textwidth}
+\textbf{Step 3: Refinement}
+
+Optimization and adjustments.
+
+\vspace{0.5em}
+\textbf{Step 4: Validation}
+
+Check results against criteria.
+
+\vspace{0.5em}
+\textbf{Final State}
+
+Description of outcome:
+\begin{itemize}
+\item Result: \textcolor{mlgreen}{Success}
+\item Time: 2.3 seconds
+\item Accuracy: 99.5\%
+\end{itemize}
+\end{columns}
+
+\bottomnote{Step-by-step breakdowns clarify complex processes}
+\end{frame}
+
+% ==================== LAYOUT 12: FORMULA COLLECTION ====================
+\begin{frame}[t]{Formula Reference}
+\begin{columns}[T]
+\column{0.31\textwidth}
+\textbf{Category 1}
+
+Basic formulas:
+$$a + b = c$$
+$$x^2 + y^2 = r^2$$
+$$F = ma$$
+
+\column{0.31\textwidth}
+\textbf{Category 2}
+
+Intermediate formulas:
+$$\int_a^b f(x)\,dx$$
+$$\sum_{i=1}^n i = \frac{n(n+1)}{2}$$
+$$e^{i\pi} + 1 = 0$$
+
+\column{0.31\textwidth}
+\textbf{Category 3}
+
+Advanced formulas:
+$$\nabla \times \vec{F} = 0$$
+$$\frac{\partial u}{\partial t} = k\nabla^2 u$$
+$$E = \hbar\omega$$
+\end{columns}
+
+\bottomnote{Quick reference formulas organized by category}
+\end{frame}
+
+% ==================== LAYOUT 13: SUMMARY STYLE ====================
+\begin{frame}[t]{Summary Layout}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Key Concepts}
+\begin{itemize}
+\item Main idea 1
+\item Main idea 2
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Methods Covered}
+\begin{itemize}
+\item Technique A
+\item Technique B
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Applications}
+\begin{itemize}
+\item Real-world use 1
+\item Real-world use 2
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Next Steps}
+\begin{itemize}
+\item Further reading
+\item Advanced topics
+\end{itemize}
+\end{columns}
+
+\vspace{1em}
+% Visual summary placeholder - increased space
+\begin{center}
+\framebox[0.95\textwidth][c]{
+\vspace{4.5cm}
+\textcolor{midgray}{[Summary Dashboard/Visual]}
+\vspace{4.5cm}
+}
+\end{center}
+
+\bottomnote{Summaries consolidate learning and provide direction}
+\end{frame}
+
+% ==================== SECTION: SPECIALIZED FORMATS ====================
+\section{Specialized Formats}
+
+\begin{frame}[t]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Specialized Formats\par
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% ==================== LAYOUT 14: Q&A STYLE ====================
+\begin{frame}[t]{Question and Answer Format}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Common Questions}
+
+\textit{Q1: What is the main purpose?}
+
+Answer explaining the primary goal and its importance.
+
+\vspace{0.5em}
+\textit{Q2: How does it work?}
+
+Brief explanation of the mechanism or process.
+
+\column{0.48\textwidth}
+\textit{Q3: When should it be used?}
+
+Scenarios and conditions for application.
+
+\vspace{0.5em}
+\textit{Q4: What are the limitations?}
+
+Known constraints and boundaries.
+\end{columns}
+
+\vspace{0.5em}
+% FAQ visual placeholder
+\begin{center}
+\framebox[0.5\textwidth][c]{
+\vspace{1.5cm}
+\textcolor{midgray}{[FAQ Diagram/Icon]}
+\vspace{1.5cm}
+}
+\end{center}
+
+\bottomnote{Anticipating questions improves comprehension}
+\end{frame}
+
+% ==================== LAYOUT 15: CLOSING SLIDE ====================
+\begin{frame}[plain]
+\vspace{3cm}
+\begin{center}
+{\Large Thank you}\\[2cm]
+{\normalsize Questions?}\\[1cm]
+{\small contact@example.com}
+\end{center}
+\end{frame}
+
+% ==================== LAYOUT 16: OVERVIEW WITH SECTIONS ====================
+\begin{frame}[t]{Course Overview}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Part 1: Foundations}
+\begin{itemize}
+\item Topic 1.1
+\item Topic 1.2
+\item Topic 1.3
+\item Topic 1.4
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Part 2: Intermediate}
+\begin{itemize}
+\item Topic 2.1
+\item Topic 2.2
+\item Topic 2.3
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Part 3: Advanced}
+\begin{itemize}
+\item Topic 3.1
+\item Topic 3.2
+\item Topic 3.3
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Part 4: Applications}
+\begin{itemize}
+\item Application A
+\item Application B
+\item Application C
+\item Case Studies
+\end{itemize}
+\end{columns}
+
+\vspace{0.5em}
+% Course structure/roadmap visual
+\begin{center}
+\framebox[0.8\textwidth][c]{
+\vspace{1.5cm}
+\textcolor{midgray}{[Course Roadmap/Flow Diagram]}
+\vspace{1.5cm}
+}
+\end{center}
+
+\bottomnote{Structured overview helps learners navigate content}
+\end{frame}
+
+% ==================== LAYOUT 17: CODE AND OUTPUT ====================
+\begin{frame}[t]{Code Example Layout}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Input Code}
+
+\texttt{def function(x):}\\
+\texttt{~~~~if x > 0:}\\
+\texttt{~~~~~~~~return x * 2}\\
+\texttt{~~~~else:}\\
+\texttt{~~~~~~~~return -x}\\
+\texttt{}\\
+\texttt{result = function(5)}\\
+\texttt{print(result)}
+
+\vspace{0.5em}
+\textbf{Explanation}
+
+This function doubles positive numbers and negates negative numbers.
+
+\column{0.48\textwidth}
+\textbf{Output}
+
+\texttt{10}
+
+\vspace{0.5em}
+\textbf{Trace Through}
+\begin{enumerate}
+\item Input: $x = 5$
+\item Check: $5 > 0$ (True)
+\item Execute: $5 \times 2 = 10$
+\item Return: $10$
+\end{enumerate}
+
+\textbf{Other Examples}
+\begin{itemize}
+\item $f(3) = 6$
+\item $f(-4) = 4$
+\item $f(0) = 0$
+\end{itemize}
+\end{columns}
+
+\bottomnote{Code examples benefit from step-by-step explanation}
+\end{frame}
+
+% ==================== LAYOUT 18: PROS AND CONS ====================
+\begin{frame}[t]{Advantages and Disadvantages}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Advantages}
+\begin{itemize}
+\item[\textcolor{mlgreen}{+}] Benefit one with explanation
+\item[\textcolor{mlgreen}{+}] Benefit two
+\item[\textcolor{mlgreen}{+}] Benefit three
+\item[\textcolor{mlgreen}{+}] Benefit four with additional context
+\item[\textcolor{mlgreen}{+}] Benefit five
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Disadvantages}
+\begin{itemize}
+\item[\textcolor{mlorange}{-}] Drawback one
+\item[\textcolor{mlorange}{-}] Drawback two with details
+\item[\textcolor{mlorange}{-}] Drawback three
+\item[\textcolor{mlorange}{-}] Drawback four
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Verdict}
+
+Best suited for situations where benefits outweigh drawbacks.
+\end{columns}
+
+\bottomnote{Balanced analysis helps informed decision-making}
+\end{frame}
+
+% ==================== LAYOUT 19: TIMELINE ====================
+\begin{frame}[t]{Timeline Layout}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Phase 1: Initial Development}
+\begin{itemize}
+\item Week 1-2: Planning
+\item Week 3-4: Design
+\item Week 5-6: Prototype
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Phase 2: Implementation}
+\begin{itemize}
+\item Week 7-10: Core features
+\item Week 11-12: Testing
+\item Week 13-14: Refinement
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Phase 3: Deployment}
+\begin{itemize}
+\item Week 15: Beta release
+\item Week 16-17: Feedback
+\item Week 18: Final release
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Phase 4: Maintenance}
+\begin{itemize}
+\item Ongoing: Updates
+\item Monthly: Reviews
+\item Quarterly: Major updates
+\end{itemize}
+\end{columns}
+
+\vspace{0.5em}
+% Timeline/Gantt chart placeholder
+\begin{center}
+\framebox[0.95\textwidth][c]{
+\vspace{2cm}
+\textcolor{midgray}{[Timeline/Gantt Chart Placeholder]}
+\vspace{2cm}
+}
+\end{center}
+
+\bottomnote{Clear timelines set expectations and track progress}
+\end{frame}
+
+% ==================== LAYOUT 20: REFERENCES ====================
+\begin{frame}[t]{References and Resources}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textbf{Primary Sources}
+\begin{itemize}
+\item Author (2024): \textit{Main Title}
+\item Researcher (2023): \textit{Key Paper}
+\item Expert (2023): \textit{Foundational Work}
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Books}
+\begin{itemize}
+\item Comprehensive Guide
+\item Practical Handbook
+\item Theory and Practice
+\end{itemize}
+
+\column{0.48\textwidth}
+\textbf{Online Resources}
+\begin{itemize}
+\item Official documentation
+\item Video tutorials
+\item Interactive examples
+\item Community forums
+\end{itemize}
+
+\vspace{0.5em}
+\textbf{Tools}
+\begin{itemize}
+\item Software package A
+\item Library B
+\item Framework C
+\end{itemize}
+\end{columns}
+
+\bottomnote{Curated resources accelerate learning}
+\end{frame}
+
+% ==================== SECTION: DATA VISUALIZATION ====================
+\section{Data Visualization}
+
+\begin{frame}[t]
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{title}
+\usebeamerfont{title}\Large Data Visualization\par
+\end{beamercolorbox}
+\vfill
+\end{frame}
+
+% ==================== LAYOUT 21: FULL-SIZE CHART ====================
+\begin{frame}[t]{Full-Size Chart Layout}
+\begin{center}
+\vspace{0.5em}
+% Full-size chart placeholder
+\framebox[0.95\textwidth][c]{
+\vspace{7cm}
+\textcolor{midgray}{[Full-Size Chart/Visualization]}
+\vspace{7cm}
+}
+\end{center}
+
+\bottomnote{Key insight or interpretation of the visualization}
+\end{frame}
+
+% ==================== LAYOUT 22: CHART WITH EXPLANATIONS ====================
+\begin{frame}[t]{Chart with Bottom Explanations}
+\begin{center}
+% Main chart placeholder
+\framebox[0.95\textwidth][c]{
+\vspace{5cm}
+\textcolor{midgray}{[Main Chart/Visualization]}
+\vspace{5cm}
+}
+\end{center}
+
+\vspace{0.5em}
+\textbf{Key Observations:}
+\begin{itemize}
+\item Trend 1: Description of first pattern or insight
+\item Trend 2: Description of second pattern or insight
+\item Trend 3: Description of third pattern or insight
+\end{itemize}
+
+\bottomnote{Additional context or methodology notes about the data}
+\end{frame}
+
+\end{document}
