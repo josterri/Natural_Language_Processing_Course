@@ -2,6 +2,9 @@
 .claude/
 CLAUDE.md
 
+# Internal instructional frameworks (not for students)
+DIDACTIC_PRESENTATION_FRAMEWORK.md
+
 # Python
 __pycache__/
 *.py[cod]
